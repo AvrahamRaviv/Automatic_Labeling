@@ -188,13 +188,3 @@ for org_ann, dlib_ann in zip(anns['annotations'], eyes_dict_pdlib['annotations']
 anns['annotations'] = combine_anns
 with open(os.path.join(f'new_json_combined', a), 'w', encoding='utf-8') as ff:
     json.dump(anns, ff, indent=4)
-
-
-
-
-
-
-
-
-
-
