@@ -1,0 +1,5 @@
+###### Requirements without Version Specifiers ######`
+face-alignment
+scikit-image
+numpy
+torch
